@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.hover-main {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card
+{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    transition: 0.5s;
+    border-radius: 30px;
+    /* color: #fff; */
+}
+
+.face{
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.face1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    /* background-image: url("PRITHA.jpg"); */
+} 
+
+.face1 h2{
+    text-transform: uppercase;
+    margin-top: 200px;
+}
+
+.photograph
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+.face1 p 
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.face1 a
+{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #191E27;
+    padding: 5px 10px;
+    /* border: 2px solid #191E27; */
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.face1 a img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.face2
+{
+    background-color: #191E27;
+    transition: 0.5s;
+}
+
+.face2 h2
+{
+    font-size: 50px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.card:hover .face2
+{
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    top: 25px;
+    left: 38%;
+    /* background: transparent; */
+    background-color: #191E27;
+    border: none;
+}
+
+.card:hover .face2 h2
+{
+    font-size: 10px;
+    color: white;
+}
+
+a:hover 
+{
+    background-color: white;
+}
